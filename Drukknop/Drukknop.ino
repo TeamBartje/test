@@ -3,7 +3,7 @@
 void setup() {
   pinMode(LED,OUTPUT);
   pinMode(BUTTON, INPUT);
-  Serial.begin(9600);
+  Serial.begin(9600);//Om correct te beginnen
 }
 
 void loop() {
